@@ -1,4 +1,4 @@
-By Akash_Magar
+
 
 1. db.ResData.aggregate([{$project:{_id:0,'restaurant_id':1,'name':1,"address.zipcode":1}}])
 2. db.ResData.aggregate([{$sort:{'name':1,'address':1,'cusine':1,'grades':1}}]).pretty()
